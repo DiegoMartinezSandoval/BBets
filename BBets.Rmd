@@ -60,8 +60,28 @@ for(i in 1:637){
 hist(saveBank)
 ```
 
+## Question 1 Find fair odds
+
+```{r}
+numClass = 35
+#my guess at fair odds = $xxx :$1
+odds = 4.35
+countoDo = 637
 
 
+saveBank = vector('numeric')
+
+for (k in 1:40){
+ bank = (BrLw(numClass,odds,countoDo))
+ saveBank[k] = bank
+}
+
+print(mean(saveBank))
+hist(saveBank)
+
+```
+
+To make the game fair, Brownlow should pay out 'r mean(saveBank)'. The score I got is  2.2225. 
 
 # In the class and payoff as described  If you highered 40 brownlow substitute teachers to do the same thing that Brownlow did then.
 ## what is their average earnings
