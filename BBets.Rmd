@@ -93,8 +93,12 @@ UCL = mean(saveBank) + 2*sd(saveBank)
 print(LCL)
 print(UCL)
 ```
+```{r}
+sd(saveBank)
+```
 
-When 40 Dr.Brownlow substitutes try this, the average mean is $280 in profit. The confidence interval is between 223 & 338. 
+
+When 40 Dr.Brownlow substitutes try this, the average mean is $280 in profit. The confidence interval is between 224 & 338. The standard deviation is 33. 
 
 
 <!--Explain and display your method of coming up with a 95% confidence interval of  professor Brownlows winnings (or losings)-->
@@ -123,7 +127,7 @@ hist(saveBank)
 
 ```
 
-To make the game fair, Brownlow should pay out 'r mean(saveBank)'. The score I got is  2.2225. 
+To make the game fair, Brownlow should pay out 'r mean(saveBank)'. The score I got is  2.2225. The odds ratio I used 4.35. 
 
 
 
@@ -160,11 +164,13 @@ hist(saveBank)
 ```
 
 
-
-
+A size of 28 classmates will make the 2:1 bet fair. Since I got my lowest score with this number. The score I got is -16.625. 
 
 
 # Discussion and Conclusion
+
+For Question #1, I conclude that with 40 Dr.Brownlow substitutes doing the 2:1 deal, the average profit will be about $280. The standard deviation is 33. The confidence intervall is between 224 & 338. For Question #2, I conclude that the fair odds are, to  make the game fair, Brownlow should pay out 'r mean(saveBank)'. The score I got is  2.2225. For Question #3, I conclude that for a 2:1 deal, you need a class size of 28. 
+
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
 
