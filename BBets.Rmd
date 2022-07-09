@@ -127,7 +127,7 @@ hist(saveBank)
 
 ```
 
-To make the game fair, Brownlow should pay out 'r mean(saveBank)'. The score I got is  2.2225. The odds ratio I used is 4.35. 
+The odds ratio I used is 4.35 to 1. 
 
 
 
@@ -164,7 +164,7 @@ hist(saveBank)
 ```
 
 
-A size of 28 classmates will make the 2:1 bet fair. Since I got my lowest score with this number. The score I got is -16.625. 
+A size of 28 classmates will make the 2:1 bet fair. Since I got my lowest score with this number. Dr.Brownlow lost on average `r mean(saveBank)`
 
 
 # Discussion and Conclusion  
