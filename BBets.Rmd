@@ -167,7 +167,7 @@ hist(saveBank)
 A size of 28 classmates will make the 2:1 bet fair. Since I got my lowest score with this number. Dr.Brownlow lost on average `r mean(saveBank)`
 
 
-# Discussion and Conclusion  
+# Discussion and Conclusion     
 
 For Question #1, I conclude that with 40 Dr.Brownlow substitutes doing the 2:1 deal, the average profit will be about $280. The standard deviation is 33. The confidence interval is between 224 & 338. For Question #2, I conclude that the fair odds are, to  make the game fair, Brownlow should pay out 'r mean(saveBank)'. The score I got is  2.2225. For Question #3, I conclude that for a 2:1 deal, you need a class size of 28. 
 
